@@ -43,6 +43,7 @@ form.addEventListener('submit', (e) => {
       }
 
       createGallery(data.hits);
+      console.log(data);
 
 
       searchInput.value = '';
