@@ -54,10 +54,10 @@ export const clearGallery = () => {
 
 export const showLoader = () => {
   
-  document.getElementById('loader').classList.add('is-visible');
+  document.getElementById('loader').classList.add('is-hidden');
 };
 
 export const hideLoader = () => {
   
-  document.getElementById('loader').classList.remove('is-visible');
+  document.getElementById('loader').classList.remove('is-hidden');
 };
