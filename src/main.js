@@ -44,11 +44,6 @@ form.addEventListener('submit', (e) => {
 
       createGallery(data.hits);
 
-      iziToast.success({
-        title: 'Success',
-        message: `Found ${data.hits.length} images`,
-        position: 'topRight',
-      });
 
       searchInput.value = '';
     })
